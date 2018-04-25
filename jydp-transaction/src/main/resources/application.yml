@@ -1,0 +1,21 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8763
+spring:
+  application:
+    name: jydp-transaction
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://139.224.196.2:3306/mysql?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 1qaz2wsx
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    publisher-confirms: true
+    virtual-host: /

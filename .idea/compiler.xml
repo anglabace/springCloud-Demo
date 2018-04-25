@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common" />
+        <module name="jydp-server" />
+        <module name="jydp-transaction" />
+        <module name="jydp-usercenter" />
+        <module name="pojo" />
+        <module name="service-api" />
+        <module name="Timer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="1.7" />
+      <module name="jydp" target="1.7" />
+      <module name="jydp-server" target="1.8" />
+      <module name="jydp-transaction" target="1.8" />
+      <module name="jydp-usercenter" target="1.8" />
+      <module name="pojo" target="1.7" />
+      <module name="service-api" target="1.8" />
+      <module name="Timer" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

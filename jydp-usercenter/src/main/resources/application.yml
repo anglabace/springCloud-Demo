@@ -1,0 +1,36 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8762
+spring:
+  application:
+    name: jydp-usercenter
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://139.224.196.2:3306/mysql?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 1qaz2wsx
+    initSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    timeout: 5000
+    database: 0
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    publisher-confirms: true
+    virtual-host: /
+mybatis:
+  mapper-locations:  classpath:mapping/*.xml
+  type-aliases-package: com.qmkj.entity

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Timer/Timer.iml" filepath="$PROJECT_DIR$/Timer/Timer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jydp.iml" filepath="$PROJECT_DIR$/jydp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jydp-server/jydp-server.iml" filepath="$PROJECT_DIR$/jydp-server/jydp-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jydp-transaction/jydp-transaction.iml" filepath="$PROJECT_DIR$/jydp-transaction/jydp-transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jydp-usercenter/jydp-usercenter.iml" filepath="$PROJECT_DIR$/jydp-usercenter/jydp-usercenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pojo/pojo.iml" filepath="$PROJECT_DIR$/pojo/pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-api/service-api.iml" filepath="$PROJECT_DIR$/service-api/service-api.iml" />
+    </modules>
+  </component>
+</project>
