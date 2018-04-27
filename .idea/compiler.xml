@@ -18,6 +18,7 @@
     <bytecodeTargetLevel>
       <module name="common" target="1.7" />
       <module name="jydp" target="1.7" />
+      <module name="jydp-config-server" target="1.8" />
       <module name="jydp-server" target="1.8" />
       <module name="jydp-transaction" target="1.8" />
       <module name="jydp-usercenter" target="1.8" />
