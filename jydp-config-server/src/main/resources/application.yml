@@ -1,0 +1,17 @@
+server:
+  port: 8788
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      uri: http://git.aiksheng.com/wuqingsong/jydp-springCloud/
+      username: wuqingsong
+      password: qq000000...
+      server:
+        native:
+          search-locations: config-dev
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
