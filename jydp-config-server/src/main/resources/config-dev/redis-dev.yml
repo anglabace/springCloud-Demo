@@ -4,4 +4,3 @@ spring:
     port: 6379
     timeout: 5000
     database: 0
-boot: 1
